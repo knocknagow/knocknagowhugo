@@ -1,4 +1,4 @@
-baseurl = "https://knocknagow.github.io/"
+#baseurl = "http://knocknagow.com/"
 languageCode = "en-us"
 title = "Knocknagow B&B"
 theme = "hugo-strata-theme"
@@ -49,7 +49,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Knocknagow B&B"
-		content = "Knocknagow is a comfortable, modern guesthouse, located ten minutes away from Shannon Airport."
+		content = "Knocknagow is a comfortable, modern guesthouse, located ten minutes away from Shannon Airport. <br> <h2>Booking</h2> Bookings can be made through our partner website, [B&B Ireland](https://www.bandbireland.com/accommodation/26342/knocknagow) or by phone or email. Our contact details are at the bottom of this page."
 
 
 
@@ -63,51 +63,58 @@ paginate = 10
 		[[params.portfolio.gallery]]
 			image = "fulls/01.jpg"
 			thumb = "thumbs/01.jpg"
-			title = "A double room"
+			title = ""
 			description = ""
 
 		[[params.portfolio.gallery]]
 			image = "fulls/02.jpg"
 			thumb = "thumbs/02.jpg"
-			title = "Homemade brown bread"
+			title = ""
 			description = ""
 
 		[[params.portfolio.gallery]]
 			image = "fulls/03.jpg"
 			thumb = "thumbs/03.jpg"
-			title = "Liz on site in northern Alberta"
+			title = ""
 			description = ""
 
 		[[params.portfolio.gallery]]
 			image = "fulls/04.jpg"
 			thumb = "thumbs/04.jpg"
-			title = "Conor on site in Doha"
+			title = ""
 			description = ""
 
 		[[params.portfolio.gallery]]
 			image = "fulls/05.jpg"
 			thumb = "thumbs/05.jpg"
-			title = "Connemara National Park, Co. Galway"
+			title = ""
 			description = ""
 
+		[[params.portfolio.gallery]]
+			image = "fulls/06.jpg"
+			thumb = "thumbs/06.jpg"
+			title = ""
+			description = ""
 
 	[params.recentposts]
 		hide  = true
 		title = "Recent blog posts"
 
 	[params.contact]
-		hide  = true
+		hide  = false
 		title = "Get In Touch"
-		content = "Use this form to ask questions, RSVP or say hello and we'll email you back!"
+		content = "Use this form to ask questions and we'll email you back!"
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "49.272899, -123.126724"
+		gmaps_address = "52.741163, -8.907812"
 		address = [
-			"1503-1408 Strathmore Mews",
-			"Vancouver, BC V6Z 3A9",
-			"Canada"
+			"Leamaneigh More",
+			"Newmarket-on-Fergus",
+			"Co. Clare",
+			"V95 XY84",
+			"Ireland"
 		]
-		# phone = ""
+		phone = "+353 61 368685"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -120,7 +127,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = ""
+		email = "info@knocknagowbandb.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -133,17 +140,17 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "Home"
+	name = ""
 	url  = "/"
 	weight = 1
 
 [[menu.main]]
-	name = "Location"
-	url  = "location"
+	name = ""
+	url  = ""
 	weight = 2
 
 [[menu.main]]
-	name = "Booking"
-	url  = "booking"
+	name = ""
+	url  = ""
 	weight = 3
 

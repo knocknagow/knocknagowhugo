@@ -17,18 +17,18 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		
 		<meta name="og:site_name" content="Knocknagow B&amp;B">
 		<meta name="og:title" content="Creating a new theme">
-		<meta name="og:url" content="https://knocknagow.github.io/post/creating-a-new-theme/">
+		<meta name="og:url" content="/post/creating-a-new-theme/">
 		
-		<meta name="og:image" content="https://knocknagow.github.io/images/">
+		<meta name="og:image" content="images/">
 		
 		
 
-		<meta name="generator" content="Hugo 0.32" />
+		<meta name="generator" content="Hugo 0.37" />
 
-		<!--[if lte IE 8]><script src='https://knocknagow.github.io/js/ie/html5shiv.js'></script><![endif]-->
+		<!--[if lte IE 8]><script src='js/ie/html5shiv.js'></script><![endif]-->
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://knocknagow.github.io/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="https://knocknagow.github.io//css/ie8.css"><![endif]-->
+		<link rel="stylesheet" href="css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
 
 		
 		
@@ -38,7 +38,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<!-- Header -->
 <header id="header">
 	
-	<a href="https://knocknagow.github.io/" class="image avatar"><img src="https://knocknagow.github.io/images/" alt="" /></a>
+	<a href="" class="image avatar"><img src="images/" alt="" /></a>
 	
 	
 		<h1>Knocknagow B&amp;B</h1>
@@ -48,11 +48,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<nav id="sidebar">
 			<ul>
 			
-				<li><a href="https://knocknagow.github.io/">Home</a></li>
-			
-				<li><a href="https://knocknagow.github.io/location">Location</a></li>
-			
-				<li><a href="https://knocknagow.github.io/booking">Booking</a></li>
+				<li><a href=""></a></li>
 			
 			</ul>
 		</nav>
@@ -76,7 +72,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     
         <i class="fa fa-folder"></i>&nbsp;&nbsp;
         
-        <a class="article-category-link" href="https://knocknagow.github.io/categories/lorem">Lorem</a>
+        <a class="article-category-link" href="categories/lorem">Lorem</a>
         
         
     
@@ -990,7 +986,7 @@ i'm speechless
     &lt;h1&gt;&lt;a href=&quot;http://localhost:1313/post/first-post/&quot;&gt;first&lt;/a&gt;&lt;/h1&gt;
 &lt;script&gt;document.write('&lt;script src=&quot;http://'
         + (location.host || 'localhost').split(':')[0]
-		+ ':1313/livereload.js?mindelay=10&quot;&gt;&lt;/'
+        + ':1313/livereload.js?mindelay=10&quot;&gt;&lt;/'
         + 'script&gt;')&lt;/script&gt;&lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
@@ -1035,8 +1031,8 @@ i'm speechless
 
 <pre><code>$ vi config.toml
 [permalinks]
-	page = &quot;/:title/&quot;
-	about = &quot;/:filename/&quot;
+    page = &quot;/:title/&quot;
+    about = &quot;/:filename/&quot;
 </code></pre>
 
 <p>Generate the web site and verify that this didn&rsquo;t work. Hugo lets &ldquo;slug&rdquo; or &ldquo;URL&rdquo; override the permalinks setting in the configuration file. Go ahead and comment out the slug in content/about.md, then generate the web site to get it to be created in the right place.</p>
@@ -1055,7 +1051,7 @@ i'm speechless
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-	&lt;title&gt;{{ .Title }}&lt;/title&gt;
+    &lt;title&gt;{{ .Title }}&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 :wq
@@ -1202,8 +1198,10 @@ $ vi themes/zafta/layouts/_default/single.html
 		
 		
 		
+		<li><a href="#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 		
-		<li><a href="https://knocknagow.github.io/index.xml" class="icon fa-rss" type="application/rss+xml"><span class="label">RSS</span></a></li>
+		
+		<li><a href="/index.xml" class="icon fa-rss" type="application/rss+xml"><span class="label">RSS</span></a></li>
 		
 	</ul>
 
@@ -1217,12 +1215,12 @@ $ vi themes/zafta/layouts/_default/single.html
 </footer>
 
 <!-- Scripts -->
-<script src="https://knocknagow.github.io/js/jquery.min.js"></script>
-<script src="https://knocknagow.github.io/js/jquery.poptrox.min.js"></script>
-<script src="https://knocknagow.github.io/js/skel.min.js"></script>
-<script src="https://knocknagow.github.io/js/util.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.poptrox.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/util.js"></script>
 
-<script src="https://knocknagow.github.io/js/main.js"></script>
+<script src="js/main.js"></script>
 
 
 
