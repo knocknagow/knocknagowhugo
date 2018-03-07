@@ -1,4 +1,4 @@
-#baseurl = "http://knocknagow.com/"
+#baseurl = "http://www.knocknagow.com/"
 languageCode = "en-us"
 title = "Knocknagow B&B"
 theme = "hugo-strata-theme"
@@ -49,7 +49,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Knocknagow B&B"
-		content = "Knocknagow is a comfortable, modern guesthouse, located ten minutes away from Shannon Airport. <br> <h2>Booking</h2> Bookings can be made through our partner website, [B&B Ireland](https://www.bandbireland.com/accommodation/26342/knocknagow) or by phone or email. Our contact details are at the bottom of this page."
+		content = "Knocknagow is a comfortable, modern guesthouse, located only ten minutes from Shannon Airport. <br> <h2>Booking</h2> Bookings can be made through our partner website, [B&B Ireland](https://www.bandbireland.com/accommodation/26342/knocknagow) or by phone or email. Our contact details are at the bottom of this page."
 
 
 
@@ -102,8 +102,8 @@ paginate = 10
 
 	[params.contact]
 		hide  = false
-		title = "Get In Touch"
-		content = "Use this form to ask questions and we'll email you back!"
+		title = "Contact Us"
+		content = "You can use this form to ask questions and we will respond by email"
 
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "52.741163, -8.907812"
@@ -127,7 +127,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "info@knocknagowbandb.com"
+		email = "jpfleming@eircom.net"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
